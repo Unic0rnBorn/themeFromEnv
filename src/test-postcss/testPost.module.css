@@ -1,0 +1,17 @@
+.main{
+	width: 100%;
+	background-color: var(--primary-color);
+	margin: 0;
+	padding: 0;
+}
+
+.first{
+	width: 30%;
+	background-color: aquamarine
+}
+
+.second{
+
+	width: 50%;
+	background-color: coral;
+}

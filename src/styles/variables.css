@@ -1,0 +1,23 @@
+:root {
+    /* --primary-color: red; */
+    --primary-color: $theme.primaryColor;
+    /* --inverted-color: $theme.invertedColor;
+    --primary-font-color: $theme.primaryFontColor;
+    --inverted-font-color: $theme.invertedFontColor;
+    --standard-gray: $theme.standardGray;
+    --warning-color: $theme.warningColor;
+    --negative-color: $theme.negativeColor;
+    --positive-color: $theme.positiveColor;
+  
+    --toolbar-color: $theme.toolbarColor;
+    --primary-icon-color: $theme.primaryIconColor;
+    --primary-button-color: $theme.primaryButtonColor; */
+  }
+  
+  /*
+   * custom media
+   */
+  @custom-media --small-device (max-width: 480px);
+  @custom-media --medium-device (max-width: 768px);
+  @custom-media --large-device (max-width: 992px);
+  @custom-media --x-large-device (max-width: 1200px);
